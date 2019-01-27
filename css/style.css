@@ -1,0 +1,492 @@
+/************************
+Designed by : http://responsivewebinc.com
+************************/
+
+/* Basic CSS starts */
+
+body{
+	
+	font-family: 'Open Sans', sans-serif;
+	font-size:13px;
+	line-height:20px;
+	padding-top:48px;
+  background:#fff url('../img/mainback.jpg') repeat;
+  background-attachment: fixed;
+  background-position: center; 
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,h2,h3,h4,h5,h6{
+	
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+a{
+
+}
+
+a:hover{
+
+}
+
+a:hover,a:active,a:focus {
+	outline: 0;
+}
+
+
+hr.style-seven {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+:focus {
+	outline:none;
+}
+
+::-moz-focus-inner {
+	border:0;
+}
+
+/* Basic CSS ends */
+
+/* Container */
+
+.container{
+	width:900px;
+}
+
+.container_2{
+	width:508px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bor{
+	background:url('../img/border.png') no-repeat;
+	height:40px;
+	width:350px;
+	margin:15px auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title h3{
+	text-align:center;
+	font-family: 'Droid Serif', serif;
+	font-size:30px;
+	color:444;
+}
+
+.wedding .well a{
+	color:#496e77;
+	text-decoration:none;
+}
+
+.wedding .well a:hover{
+	color:#f9eabf;;
+}
+
+
+/* Navigation */
+
+.navbar{
+	background:#133b55;
+	border-color: #496e77;
+}
+
+.navbar .navbar-header .navbar-toggle span.menu{
+	line-height:20px;
+}
+
+.navbar .navbar-header a.navbar-brand{
+	font-family: 'Lobster Two', cursive;
+	color:#fff;
+	font-size:22px;
+	padding-top:15px;
+	padding-bottom:15px;
+	text-shadow:1px 1px 1px #f9eabf;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #496e77;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.navbar-toggle{
+	background:#f9eabf;
+}
+
+.navbar-toggle:hover{
+	background:#133b55 !important;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: #f9eabf;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+	padding-top:15px;
+	padding-bottom:15px;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-shadow:1px 1px 1px #133b55;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #fff;
+	background:#f9eabf;	
+}
+
+/* Main */
+
+.main{
+	padding-top:40px;
+	padding-bottom:20px;
+}
+
+.main .main-invite{
+	background:#fff;
+	padding-left:25px;
+	padding-right:25px;
+	margin-bottom:30px;
+	padding-top:30px;
+	padding-bottom:30px;
+	margin-top:30px;
+}
+
+.main .main-invite .signal{
+	line-height:16px;
+	display:inline-block;
+	background:#133b55;
+	padding:5px;
+	border-radius:25px;
+	color:#fff;
+	text-align:center;
+	font-size:11px;
+	font-weight:bold;
+}
+
+.main .main-invite .signal i{
+	padding-left:5px;
+	
+}
+
+.main .main-invite .signal span{
+	text-transform:uppercase;
+	padding-left:5px;
+	padding-right:5px;
+	
+}
+
+.main .main-invite h1{
+	font-family: 'Open Sans', sans-serif;
+	color:#133b55;	
+	padding-top:0px;
+	font-weight:bold;
+	font-size:38px;
+	line-height:48px;
+	text-transform:uppercase;
+  text-align:center;
+}
+
+.main .main-invite p{
+	font-family: 'Droid Serif', serif;
+	font-size:15px;
+	font-style:italic;
+	line-height:30px;
+}
+
+.main .main-date{
+	background:#133b55;
+	padding-left:10px;
+	padding-top:50px;
+	padding-bottom:40px;
+	padding-right:10px;
+	text-align:center;
+	line-height:60px;
+	margin-top:30px;
+}
+
+.main .main-date i.icon-heart{
+	font-size:70px;
+	color:#fff;
+	line-height:80px;
+	
+}
+
+.main .main-date .date{
+	font-size:50px;
+	text-align:center;
+	line-height:60px;
+	color:#fff;
+}
+
+.main .main-date .date span.month{
+	font-size:30px;
+	line-height:44px;
+}
+
+.main .main-date .date span.year{
+	font-size:55px;
+	line-height:67px;
+}
+
+/* About */
+
+.about{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.about  p.about-para{
+	font-family: 'Droid Serif', serif;
+	font-style:italic;
+	font-size:17px;
+	line-height:30px;
+	color:#666;
+	width:100%;
+	margin:0px auto;
+}
+
+.about img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about .groom h3{
+	text-align:center;
+	font-family: 'Droid Serif', serif;
+	font-size:40px;
+	color:444;
+	text-transform:uppercase;
+}
+
+.about .groom p{
+	font-family: 'Droid Serif', serif;
+	font-style:italic;
+	font-size:15px;
+	line-height:30px;
+	color:#666;
+}
+
+.about .love{
+	text-align:center;
+	padding-top:30px;
+}
+
+.about .love i{
+	font-size:130px;
+	color:#133b55;
+}
+
+.about .love h3{
+	font-size:20px;
+	color:#133b55;
+}
+
+.about .bride h3{
+	text-align:center;
+	font-family: 'Droid Serif', serif;
+	font-size:40px;
+	color:444;
+	text-transform:uppercase;
+}
+
+.about .bride p{
+	font-family: 'Droid Serif', serif;
+	font-style:italic;
+	font-size:15px;
+	line-height:30px;
+	color:#666;
+}
+
+/* Photos */
+
+.flex-direction-nav {
+  line-height:40px;
+}
+   
+/* Wedding */
+.wedding {
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.wedding .well h3{
+	font-size:17px;
+	font-family: 'Droid Serif', serif;
+}
+
+.wedding .well h5{
+	font-family: 'Droid Serif', serif;
+}
+
+.wedding .well p{
+	font-size:13px;
+	line-height:22px;
+	color:#666;	
+}
+
+.wedding .well img{
+	border:1px solid #f9eabf;
+	background:#fff;
+	padding:5px;
+	margin-bottom:15px;	
+	margin-top:10px;
+}
+
+/* request */
+
+.request .heart{
+	text-align:center;
+}
+
+.request i{
+	font-size:120px;
+	color:#133b55;
+}
+
+.request .well{
+	padding:20px;
+}
+
+.request .well p{
+	font-family: 'Droid Serif', serif;
+	font-style:italic;
+	font-size:17px;
+	color:#666;
+	line-height:25px;
+	padding-bottom:20px;
+	text-align:center;
+}
+
+.request .well label{
+	font-weight:normal;
+}
+
+.request .well .btn{
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:13px;
+}
+
+/* Footer */
+
+.footer{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.footer .copy{
+	text-align:center;
+}
+
+.footer .copy a{
+	text-decoration:none;
+	color:#133b55;
+}
+
+.footer .copy a:hover{
+	color:#f9eabf;
+}
+
+.totop {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	z-index: 104400;
+	background: #133b55;
+}
+
+.totop a, .totop a:visited, .totop a:hover{
+	display: block;
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	text-decoration:none;
+}
+
+/* Responsive CSS */
+
+/* Mobile phones */
+@media (max-width: 480px){
+	.container{
+		width:100%;
+    margin-left: auto;
+    margin-right: auto;
+	}	
+  
+@media (max-width: 480px){
+	.container_2{
+		width:100%;
+	}	  
+	
+	.main .main-invite h1{
+		font-size:40px;
+		line-height:50px;
+	}
+	
+	.main .main-date i.icon-heart{
+		font-size:65px;
+	}
+	
+	.main .main-date .date span.month{
+		font-size:25px;
+		line-height:30px;
+	}
+	
+	.main .main-date .date span.year{
+		font-size:48px;
+		line-height:60px;
+	}
+}
+
+/* Tablets */
+@media (max-width: 767px){
+	.container{
+		width:100%;
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+@media (max-width: 767px){
+.container_2{
+  width:100%;
+}
+	
+	.about  p.about-para{
+		width:auto;
+	}
+}
